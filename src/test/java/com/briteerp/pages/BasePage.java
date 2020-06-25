@@ -68,7 +68,7 @@ public abstract class BasePage {
      * This method wait for invisible of Loading bar When navigating another page
      */
     public void waitLoadingBar() {
-        WebDriverWait wait = new WebDriverWait(Driver.get(), Integer.parseInt(ConfigurationReader.get("explicitwait")));
+        WebDriverWait wait = new WebDriverWait(Driver.get(), 20);
         wait.until(ExpectedConditions.invisibilityOf(loadingBar));
     }
 

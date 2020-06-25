@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = {"com\\briteerp\\stepdefinitions"},
 
         dryRun = false,
-        tags = ""
+        tags = "@login"
 
 )
 
